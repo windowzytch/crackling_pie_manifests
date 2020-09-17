@@ -9,6 +9,9 @@
            fetch="https://github.com/MoKee/"
            revision="mkp" />
 
+  <remote name="windowzytch"
+          fetch="https://github.com/windowzytch"
+          revision="eos-pie" />
 
   <!-- KERNEL
   #####################################################-->
@@ -17,7 +20,7 @@
   <!-- DEVICE TREES
   #####################################################-->
   <project name="android_device_cyanogen_msm8916-common" path="device/cyanogen/msm8916-common" remote="lineage" />
-  <project name="android_device_wileyfox_crackling" path="device/wileyfox/crackling" remote="lineage" />
+  <project name="android_device_wileyfox_crackling" path="device/wileyfox/crackling" remote="windowzytch" />
   
   <!-- VENDOR
   #####################################################-->
