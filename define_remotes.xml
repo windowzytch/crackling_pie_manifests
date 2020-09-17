@@ -1,0 +1,41 @@
+<manifest>
+
+    <remote
+        name="lineage"
+        fetch="https://github.com/lineageOS/" />
+
+    <!--###################################################
+        The following is sfX's SPECIAL build server access!
+        DISABLE THE FOLLOWING before syncing and enable one
+        of OPTION A) OR B) instead!
+        ###################################################-->
+    <remote
+        name="codebbr"
+        fetch="ssh://code.binbash.rocks:22227/mva-volte"
+        revision="android-9.0" />
+
+    <!--###################################################
+        OPTION A) -> enable when you want to use SSH
+        Requires to create an account and setup ssh access
+        disable any other codebbr one, of course
+        ###################################################-->
+    <!--
+    <remote
+        name="codebbr"
+        fetch="ssh://code.binbash.rocks:22443/mva-volte"
+        revision="android-9.0" />
+    -->
+
+    <!--###################################################
+        OPTION B) -> enable when you want to use HTTPS
+        Enable the following for anonymous acccess and
+        disable any other codebbr one above, of course
+        ###################################################-->
+    <!--
+    <remote
+        name="codebbr"
+        fetch="https://code.binbash.rocks:8443/MVA-VoLTE"
+        revision="android-9.0" />
+    -->
+
+</manifest>
