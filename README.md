@@ -1,9 +1,9 @@
-# This repository is a manifest for LOS-based Q trees for Crackling.
+# This repository is a manifest for LOS-based Pie trees for Crackling.
 
 ## To get trees using this manifest
 In ROM folder before syncing ROM sources...
 ```
-git clone https://www.github.com/windowzytch/crackling_q_manifests.git .repo/local_manifests
+git clone https://www.github.com/windowzytch/crackling_pie_manifests.git .repo/local_manifests
 repo sync --no-repo-verify -c --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune -jX
 ```
 X=Number of CPU threads
