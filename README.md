@@ -4,7 +4,7 @@
 In ROM folder before syncing ROM sources...
 ```
 git clone https://www.github.com/windowzytch/crackling_pie_manifests.git .repo/local_manifests
-repo sync --no-repo-verify -c --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune -jX
+repo sync --fail-fast --no-repo-verify -c --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune -jX
 ```
 X=Number of CPU threads
 
